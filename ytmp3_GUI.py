@@ -47,7 +47,7 @@ def download():
             mb.showerror('error', "Couldn\'t download the audio,perhaps it's a broken link!")
             break
 
-# fumction to terminate the preogrammr/Application
+# fumction to terminate the preogramme/Application
 def exit_tool():
     mb.showwarning('Terminating', "Click 'Ok' to terminate our Application!")
     time.sleep(2)
@@ -61,28 +61,32 @@ root.title("YTMP3 Downloader - by lucky verma")
 root.geometry("500x300")
 root.minsize(450, 270)
 root.maxsize(500, 300)
+root.config(background = "black")
 
-blank_label = Label(root, text="").pack()
+bg = "black"
+fg = "cyan"
+
+blank_label = Label(root, text="", bg = bg).pack()
 
 main_label = Label(root, text="YTMP3 Downloader", font=(
     "consolas", 24, "bold"), borderwidth=5,
-    bg=None, fg="blue")
+    bg=bg, fg=fg)
 main_label.pack()
 
 frame = Frame(root).pack()
-blank_label = Label(root, text="").pack()
+blank_label = Label(root, text="", bg = bg, fg = fg).pack()
 l1 = Label(frame, text="Enter Youtube video URL below:",
-           fg="red", font=(18)).pack()
-blank_label = Label(root, text="").pack()
-e1 = Entry(frame, width=45)
+           font=(18), bg = bg, fg = fg).pack()
+blank_label = Label(root, text="",  bg = bg, fg = fg).pack()
+e1 = Entry(frame, width=45,  bg = bg, fg = fg)
 e1.pack()
 
-blank_label = Label(root, text="").pack()
-blank_label = Label(root, text="").pack()
+blank_label = Label(root, text="",  bg = bg, fg = fg).pack()
+blank_label = Label(root, text="",  bg = bg, fg = fg).pack()
 
-btn = Button(frame, text="Download Audio", command=download).pack()
-blank_label = Label(root, text="").pack()
-exit_btn = Button(frame, text="Exit", command=exit_tool).pack()
+btn = Button(frame, text="Download Audio", command=download,  bg = bg, fg = fg).pack()
+blank_label = Label(root, text="",  bg = bg, fg = fg).pack()
+exit_btn = Button(frame, text="Exit", command=exit_tool,  bg = bg, fg = fg).pack()
 
 
 root.mainloop()
