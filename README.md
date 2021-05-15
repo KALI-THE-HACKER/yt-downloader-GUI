@@ -1,6 +1,6 @@
-## Youtube video's audio(audio only) downloader using tkinter, Pytube, youtube-dl [Python3]
+## Youtube video and audio downloader using tkinter, Pytube, youtube-dl [Python3]
 
-This is a simple tool who is able to download youtube video's audio (audio only) in your system by just providing it the link of the youtube video.
+A GUI tool who can download youtube videos and audio in your system,just by using the video link.
 
 __Dependencies :__
 The script requires the following python3 modules to be installed :
@@ -11,14 +11,14 @@ The script requires the following python3 modules to be installed :
 __Usage :__
 Use the below commands in the terminal to use this python script.
 ```
-python3 ytmp3_GUI.py
+Install following modules through pip [tkinter,youtube_dl and pytube]
 Copy the video link from youtube.
     - Go to Youtube.com
-    - Search the video whom audio you want to download
+    - Search the video you want to download
     - Play that video
     - Click on 'Share'
     - Copy the shown URL
-python3 ytmp3_GUI.py(run our script/tool)
+python3 yt-downloader-GUI.py(run our script/tool)
 Paste the link in our tool
 Click on Download
 ```
