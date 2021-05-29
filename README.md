@@ -1,10 +1,10 @@
 ## Youtube video and audio downloader using tkinter, Pytube, youtube-dl [Python3]
 
 A GUI tool who can download youtube videos and audio in your system,just by using the video link.
+
 <h1> </h1>
-
 <p align="center"><img src="https://s3.imgcdn.dev/kWq6h.png" /></p>
-
+<h1> </h1>
 ### __Dependencies :__
 The script requires the following python3 modules to be installed :
 * tkinter
