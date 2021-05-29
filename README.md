@@ -2,6 +2,8 @@
 
 A GUI tool who can download youtube videos and audio in your system,just by using the video link.
 
+<p align="center"><img src="https://s3.imgcdn.dev/kWq6h.png" /></p>
+
 ### __Dependencies :__
 The script requires the following python3 modules to be installed :
 * tkinter
@@ -13,18 +15,15 @@ Use the below commands in the terminal to use this python script.
 ```
 run - 'python3 setup.py'
 
-'''
-'''
 Copy the video link from youtube.
     - Go to Youtube.com
     - Search the video you want to download
     - Play that video
     - Click on 'Share'
     - Copy the shown URL
-'''
+
 run - 'python3 yt-downloader-GUI.py'
-'''
-'''
+
 Paste the link in our tool
 Click on Download
 ```
