@@ -2,7 +2,7 @@
 
 A GUI tool who can download youtube videos and audio in your system,just by using the video link.
 
-__Dependencies :__
+### __Dependencies :__
 The script requires the following python3 modules to be installed :
 * tkinter
 * youtube-dl
