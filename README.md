@@ -5,7 +5,7 @@ A GUI tool who can download youtube videos and audio in your system,just by usin
 <h1> </h1>
 <p align="center"><img src="https://s3.imgcdn.dev/kWq6h.png" /></p>
 <h1> </h1>
-### __Dependencies :__
+## Dependencies 
 The script requires the following python3 modules to be installed :
 * tkinter
 * youtube-dl
